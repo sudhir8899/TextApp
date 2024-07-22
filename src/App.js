@@ -26,12 +26,12 @@ function App() {
             setAlert(null);
         },1500);
     }
-
+//
     const toggleMode=()=>{
         if(mode==='light'){
             setMode('dark');
             document.body.style.backgroundColor='#042743';
-            showAlert("dark mode has been enable ","success");
+            showAlert("dark mode has been enabled ","success");
             document.title='TextUtils-Dark mode';
             // setInterval(()=>{
             //     document.title='TextUtils is amaging mode';
